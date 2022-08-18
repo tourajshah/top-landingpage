@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar .container {
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 560px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vpn-image {
+    width: 550px;
+}
+
+.signup-button-header {
+    display: flex;
+    align-self: flex-start;
+    font-size: 18px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid purple;
+}
+
+.header .title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* INFO */
+
+.why-us {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.info-box-one, .info-box-two, .info-box-three, .info-box-four {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.info-box-one img, .info-box-two img, .info-box-three img, .info-box-four img {
+    border-radius: 8px;
+    border: 5px solid purple;
+}
+
+.info-images {
+    display: flex;
+    gap: 60px;
+}
+
+/* QUOTE */
+
+.quote .container {
+    background-color: #e5e7eb;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.mcafee {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+/* SIGN UP */
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.signup .container {
+    background-color: purple;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    padding: 70px;
+    margin: 70px 0;
+    width: fit-content;
+    border-radius: 8px;
+
+}
+
+.signup-button-footer {
+    font-size: 18px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 45px;
+}
+
+/* STYLES */
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+button {
+    background-color: purple;
+    color: #f9faf8;
+}
+
+img:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+  }
